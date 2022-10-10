@@ -1,9 +1,5 @@
 import pandas as pd
 import streamlit as st
-#df = pd.read_excel("Tabela_NCM_Desc_Concatenada_20221007.xlsx", engine="openpyxl", header=3)
-# for linha in df.values:
-#     if(codigo in linha[0].split(".")):
-#         produtos.append([linha[0], linha[1]])
 
 data = pd.read_json("Tabela_CEST.json")
 mercosul = pd.read_json("Tabela_NCM_20221009.json")
